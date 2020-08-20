@@ -12,7 +12,7 @@ elif(hour<16):
 	g = "Good Afternoon"
 else:
 	g = "Good Evening"
-pyttsx3.speak(g+name+"Welcome to the OS program") 
+pyttsx3.speak(g+name+" Welcome to the OS program") 
 
 while True:
 
