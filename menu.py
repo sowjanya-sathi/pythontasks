@@ -61,7 +61,7 @@ while True:
 
 			elif "cmd" in p or "shell" in p or "prompt" in p or "command" in p:
 				pyttsx3.speak("Opening command prompt for you")
-				os.system("cmd")
+				os.system("start cmd")
 
 			elif "sticky" in p or " note" in p:
 				pyttsx3.speak("Opening Sticky notes for you")
